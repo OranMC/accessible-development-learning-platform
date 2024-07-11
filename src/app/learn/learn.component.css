@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 25%;
+    background-color: #f4f4f4;
+    overflow-y: auto;
+    padding: 20px;
+  }
+  
+  .main-content {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  app-video-player {
+    flex: 1;
+  }
+  
+  app-progress-tracker, app-transcript-viewer {
+    margin-top: 20px;
+  }
